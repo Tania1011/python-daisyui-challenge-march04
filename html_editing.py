@@ -8,7 +8,7 @@
 
 def generate_website():
     #  Read base HTML
-    with open("garbage.html", "r") as website:
+    with open("base.html", "r") as website:
         html_base = website.read()
 
     #  Page title
